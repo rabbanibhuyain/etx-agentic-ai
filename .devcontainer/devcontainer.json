@@ -1,0 +1,13 @@
+{
+  "name": "Ansible Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:0-3.11",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "redhat.vscode-yaml",
+        "ansible.ansible-vscode"
+      ]
+    }
+  },
+  "postCreateCommand": "pip install ansible-core"
+}
